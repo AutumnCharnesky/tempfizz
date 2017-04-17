@@ -80,5 +80,17 @@
 //
 // numbers.forEach(function(num){
 //   (sum += num);
-// 
+//
 // }); console.log(sum);
+
+// //longest name doctor who
+// var names=["Rose", "Martha", "Donna", "Amy", "Clara", "Bill"];
+// var longest=" ";
+//
+// names.forEach(function(name) {
+//   if(name.length > longest.length){
+//     longest=name;
+//     }
+// });
+//
+// console.log(longest);
