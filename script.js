@@ -1,9 +1,9 @@
 //  console.log("Hello");
-// //temp
-// var temperature = 48;
-//
-// console.log(((temperature - 32)/1.8)+ " degrees");
-//
+//temp
+var temperature = 48;
+
+console.log(((temperature - 32)/1.8)+ " degrees");
+
 // //fizzbuzz
 // for (var i=1; i <= 100; i++) {
 //
@@ -94,3 +94,46 @@
 // });
 //
 // console.log(longest);
+//
+// //function ex8
+// function add(num1, num2) {
+//   return num1 + num2;
+// }
+//
+// var total=add(2,4);
+//
+// console.log(total);
+//
+// //function ex9
+// function add(num1, num2) {
+//   return num1 + num2;
+// }
+// var total=add(7,19);
+// console.log(total);
+//
+// //function ex7
+// function add(number1, number2) {
+// 	return number1 + number2;
+// }
+
+// //function
+// function printWith(item1,item2){
+//  console.log("A " + item1 + " with " + item2 + ".");
+// }
+//
+// printWith("hotdog","chili");
+//
+// printWith("smoothie","strawberries")
+
+//temp converter.2
+function convertTemp(temp1, unit2) {
+ if (unit2 === "C" ){
+  console.log((temp1 -32) * 5/9);
+} else if (unit2 === "F"){
+  console.log(temp1 * (9/5) +32);
+}}
+
+convertTemp(212, "C");
+convertTemp(32, "C");
+convertTemp(65, "C");
+convertTemp(0, "F");
