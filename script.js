@@ -1,8 +1,8 @@
 //  console.log("Hello");
 //temp
-var temperature = 48;
-
-console.log(((temperature - 32)/1.8)+ " degrees");
+// var temperature = 48;
+//
+// console.log(((temperature - 32)/1.8)+ " degrees");
 
 // //fizzbuzz
 // for (var i=1; i <= 100; i++) {
@@ -49,12 +49,12 @@ console.log(((temperature - 32)/1.8)+ " degrees");
 // console.log("It's Friday!!!");
 // }
 //
-// var number;
-//
-// do {
-//   number = prompt("what number am I thinking of between 1-10?");
-// } while(number !== 6);
-// console.log("you got it!");
+var number;
+
+do {
+  number = prompt("what number am I thinking of between 1-10?");
+} while(number = 6);
+console.log("you got it!");
 //
 // //array
 // var numbers = [1,1,2,3,5,8];
@@ -125,15 +125,23 @@ console.log(((temperature - 32)/1.8)+ " degrees");
 //
 // printWith("smoothie","strawberries")
 
-//temp converter.2
-function convertTemp(temp1, unit2) {
- if (unit2 === "C" ){
-  console.log((temp1 -32) * 5/9);
-} else if (unit2 === "F"){
-  console.log(temp1 * (9/5) +32);
-}}
+// //temp converter.2
+// function convertTemp(temp1, unit2) {
+//  if (unit2 === "C" ){
+//   console.log((temp1 -32) * 5/9);
+// } else if (unit2 === "F"){
+//   console.log(temp1 * (9/5) +32);
+// }}
+//
+// convertTemp(212, "C");
+// convertTemp(32, "C");
+// convertTemp(65, "C");
+// convertTemp(0, "F");
 
-convertTemp(212, "C");
-convertTemp(32, "C");
-convertTemp(65, "C");
-convertTemp(0, "F");
+// //capitalize first letter
+// String.prototype.capitalize = function() {
+//     return this.charAt(0).toUpperCase() + this.slice(1);
+// }
+//
+// "what a fine day!".capitalize();
+// "aWESOME!".capitalize();
